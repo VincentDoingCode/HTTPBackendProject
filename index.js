@@ -2,6 +2,21 @@
 application and server utility, API platform
 */
 
+//Vincent Shi; Period 7/8; Even
+
+/*Reflections
+The program communicate with each other through the get requests and the constant array genres and date. 
+When one method changes certain information of the array, we can use the get requests to check the information changed via post, put, and delete requests. 
+The information that is being obtained and changed is from the constant arrays below. 
+
+In this project, I have learned how to utilize basic http backend requests and how to create a basic backend that sets the foundation for future, bigger projects.
+In addition to the http requests, I have also learned the important of node and express in creating a function program. 
+Without installing node or express, this entire program would not be able to run.
+
+
+This project can be further extended by creating a better output value for the get requests. When you get a value inside the array, it would include the entire object inside (id, name). 
+In a real world situation, we just wanted specific information. In this case, we just wanted the genre names and not really the id. 
+*/
 const express = require('express');
 const app = express();
 
